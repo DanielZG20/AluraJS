@@ -1,0 +1,43 @@
+.form-cadastro {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   border-right: 1px solid rgba(255, 255, 255, 0.1);
+   margin: 10px 0px;
+}
+.form-cadastro_input {
+   min-height: 35px;
+   font-size: 18px;
+   font-weight: 600;
+}
+.form-cadastro_textarea {
+    font-size: 16px;
+    text-align: start;
+}
+.form-cadastro_input,
+.form-cadastro_button {
+    text-align: center;
+}
+.form-cadastro_input,
+.form-cadastro_textarea,
+.form-cadastro_button {
+   width: 100%;
+   max-width: 300px;
+   background: #eee;
+}
+.form-cadastro_textarea::placeholder {
+    text-align: center;
+}
+.form-cadastro_button {
+   background: #8257e5;
+   padding: 13px;
+   margin-top: 10px;
+   border: none;
+   color: #fafafa;
+   font-weight: 600;
+   font-size: 1rem;
+}
+.cursor-pointer {
+   cursor: pointer;
+}
